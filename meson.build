@@ -10,5 +10,6 @@ executable(
   'qdesktop-creator',
   'src/main.cc',
   'src/window.cc',
+  'src/data.cc',
   dependencies: gtkmm_dep,
 )
