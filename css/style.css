@@ -1,0 +1,38 @@
+#create-button {
+  margin-top: 5px;
+  padding: 5px 0;
+  box-shadow: 0px 5px 5px #0005;
+}
+
+#folder-button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#folder-entry {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.container {
+  margin: 5px 10px;
+  border: none;
+}
+
+label,
+entry,
+button {
+  border: none;
+  outline: none;
+}
+
+button:not(#create-button),
+entry {
+  box-shadow: 0px 5px 5px #0005;
+  margin-bottom: 10px;
+}
+
+separator {
+  opacity: 0;
+  margin: 2.5px;
+}
